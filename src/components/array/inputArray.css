@@ -1,0 +1,39 @@
+.array_div{
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+    padding: 1em;
+    width: 45%;
+    margin:1em auto;
+    list-style: none;
+}
+
+.array_list{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.but-div *{
+margin: 4px;
+cursor: pointer;
+}
+
+.del:hover{
+    background-color: red;
+    color: whitesmoke;
+}
+.update:hover {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+@media (max-width:1024px) {
+    .array_div {
+        width: 65%;
+    }
+}
+
+@media (max-width:600px) {
+    .array_div{
+        width: 80%;
+    }
+}
